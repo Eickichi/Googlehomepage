@@ -1,0 +1,59 @@
+.logoright
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+.generalcontent
+{
+    display: flex;          
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+    height: 476px;
+    width: 100%;
+}
+
+.searchbar
+{
+    /*border: 2px solid red;
+    border-radius: 40px;*/
+    /* sert a encercler le border */
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.downgeneral
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.downleft
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftletters
+{
+    display: inline;
+    list-style-type: none;
+}*/
